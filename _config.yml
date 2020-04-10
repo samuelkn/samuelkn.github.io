@@ -9,7 +9,7 @@ name: Samuel Knapp
 description: Agriculture and Statistics
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /attachments/Samuel_Knapp.jpg
+avatar: https://www.samuelkn.app/attachments/Samuel_Knapp.jpg
 
 #
 # Flags below are optional
@@ -18,7 +18,7 @@ avatar: /attachments/Samuel_Knapp.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: samuel.k@gmx.de
   facebook:
   flickr:
   github: samuelkn
@@ -37,7 +37,8 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-163213453-1
+# google_analytics: UA-163213453-1
+# added directly in /_includes/analytics.html
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed

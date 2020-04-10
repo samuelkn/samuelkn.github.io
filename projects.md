@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+permalink: /projects/
 ---
 
 Here, I will share some code and tips and tricks
