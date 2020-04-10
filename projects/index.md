@@ -1,6 +1,9 @@
-# Projects
+---
+layout: page
+title: Projects
+---
 
-Here, I will share some code and tipps and tricks
+Here, I will share some code and tips and tricks
 
 ## Covariances in R
 
