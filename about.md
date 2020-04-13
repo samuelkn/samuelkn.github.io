@@ -6,7 +6,7 @@ permalink: /about/
 
 ### About me
 
-I'm an agricultural scientists. After my main focus was on plant breeding (mainly wheat), I have opened to a wider range of agronomic question, combined with a strong interest in statistics and data science. Most of my analyses, I conduct with R in combination with markdown. I try to work exclusively on Linux and currently use [manjaro](https://manjaro.org/).
+I'm an agricultural scientist. After my main focus was on plant breeding (mainly wheat), I have opened to a wider range of agronomic question, combined with a strong interest in statistics and data science. Most of my analyses, I conduct with R in combination with markdown. I try to work exclusively on Linux and currently use [manjaro](https://manjaro.org/).
 
 
 ### Internet profiles
