@@ -9,7 +9,8 @@ name: Samuel Knapp
 description: Agriculture and Statistics
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://www.samuelkn.app/attachments/Samuel_Knapp.jpg
+avatar: attachments/Samuel_Knapp.jpg
+#avatar: https://www.samuelkn.app/attachments/Samuel_Knapp.jpg
 
 #
 # Flags below are optional

@@ -5,4 +5,8 @@ title: Home
 
 ## Welcome to my page
 
-Here, I plan to show some of my work and some more hopefully helpful things.
+Hello, I'm an agricultural scientist with a strong interest in statistics.
+
+This is my personal web page, where I will try to share some of my analyses and some code, which is hopefully helpful in some projects.
+
+Please see About, for further information about me and about the homapage.
