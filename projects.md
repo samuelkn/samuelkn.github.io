@@ -10,7 +10,7 @@ Here, I will share information and code from some projects I'm working on.
 
 ### Covariance structures in mixed models R
 
-I work a lot with mixed linear models for different applications. As the implementation in R is often limited and varies a lot between the available packages, I started to built an overview of the syntax in the different packages, combined with some examples. Please see the the gitbook here: [Covariance structures in R](https://samuelkn.github.io/CovariancesInR/index.html)
+I work a lot with mixed linear models for different applications. As the implementation in R is often limited and varies a lot between the available packages, I started to built an overview of the syntax in the different packages, combined with some examples. Please see the the gitbook here: [Covariance structures in R](https://samuelkn.github.io/CovarianceStructuresInR/index.html)
 
 
 ## Other stuff
