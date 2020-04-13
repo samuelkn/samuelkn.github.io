@@ -19,7 +19,9 @@ I'm an agricultural scientist with a wide range of interests: While I focused on
 
 Please find my CV [CV](/attachments/CV_Samuel Knapp.pdf) here.
 
-[samuel.k@gmx.de](mailto:samuel.k@gmx.de)
+### Contact
+
+Please contact me by mail: [samuel.k@gmx.de](mailto:samuel.k@gmx.de)
 
 
 ### About the homepage
