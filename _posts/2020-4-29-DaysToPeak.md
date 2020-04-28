@@ -2,7 +2,6 @@
 layout: post
 title: "Corona - Days to peak"
 author: "Samuel Knapp - samuel.k@gmx.de"
-Description: Days to reach peak of daily confirmed cases
 date: 2020-04-29
 categories: rblogging
 tags: corona
@@ -10,7 +9,7 @@ editor_options:
   chunk_output_type: console
 output:
   md_document:
-    variant: markdown_github
+    variant: gfm
     preserve_yaml: true
   html_document:
     keep_md: true
@@ -25,16 +24,14 @@ output:
 #bibliography: lib.bib
 ---
 
-Download data
-=============
+# Download data
 
 Data were downloaded from the github repository of the Johns Hopkins
 University. These are the same data, from which the famous GIS world map
-is created. See:
-<a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
+is created. See: <https://github.com/CSSEGISandData/COVID-19>
 
 This was last updated
 
     ## [1] "2020-04-27"
 
-![](DaysToPeak_files/figure-markdown_github/WithPeak-1.png)
+![](../assets/images/WithPeak-1.png)<!-- -->
