@@ -61,10 +61,21 @@ permalink: /:title/
 version: v1.2.0
 
 
-#markdown: kramdown
-highlighter: rouge
+# markdown and highlighting settings:
+# see https://bnhr.xyz/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
+
+#highlighter: rouge
+#kramdown:
+#  input: GFM
+
+# apparently faster alternative
+markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
+
+
+
 
 # Jekyll 3 now only supports Kramdown for Markdown
 #kramdown:
