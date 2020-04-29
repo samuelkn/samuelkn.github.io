@@ -4,10 +4,13 @@
 //
 // IMPORTS
 //
-
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
+// these line to .scss files in _sass folder
+@import "white";
+//@import "highlights";
+// @import "svg-icons";
 
 /**************/
 /* BASE RULES */
@@ -283,10 +286,4 @@ footer {
   text-align: right;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-// these line to .scss files in _sass folder
-// commented out to force plain rouge
-@import "white";
-//@import "highlights";
-// @import "svg-icons";
+
