@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-@import "white";
+
 .blogpost {
   margin:0 auto;
   text-align: left;
@@ -265,3 +265,4 @@ footer {
     color:#444;
   }
 }
+@import "pygment_trac.css";
