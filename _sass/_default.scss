@@ -10,13 +10,21 @@
   margin: 20px 0 20px 0;
   overflow: scroll;
 }
-
-code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
-}
 */
+.highlight {
+  background-color: #efefef;
+  padding: 7px 7px 7px 10px;
+  border: 1px solid #ddd;
+  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
+  box-shadow: 3px 3px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 20px 0 20px 0;
+  overflow: hidden;
+}
 
 
+/*
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
@@ -38,7 +46,7 @@ table {
   border-collapse:collapse;
   border:1px solid black;
 }
-
+*/
 pre {
   padding:8px 15px;
   background: #f8f8f8;  
