@@ -286,4 +286,8 @@ footer {
   text-align: right;
 }
 
-@import "default.scss";
+// at end to not conflict with tags in here ?!
+@import "syntax.scss";
+/* tables */
+/* from */
+@import "tables.scss";
