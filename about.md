@@ -17,7 +17,7 @@ I'm an agricultural scientist with a wide range of interests: While I focused on
 
 ### CV
 
-Please find my CV [CV](/attachments/CV_Samuel Knapp.pdf) here.
+Please find my CV [CV](/assets/CV_Samuel Knapp.pdf) here.
 
 ### Contact
 
