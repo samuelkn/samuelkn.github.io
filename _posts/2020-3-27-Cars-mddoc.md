@@ -1,10 +1,12 @@
 ---
-title: "Exploring the Cars Dataset"
+title: "Exploring the Cars Dataset -mddoc"
 layout: post
 output:
   md_document:
     variant: gfm
     preserve_yaml: true
+  html_document:
+    keep_md: true
 ---
 
 This is an R Markdown document. Markdown is a simple formatting syntax
@@ -55,17 +57,31 @@ summary(model)
     ## lm(formula = a ~ b)
     ## 
     ## Residuals:
-    ##     Min      1Q  Median      3Q     Max 
-    ## -1.2578 -0.6942 -0.1826  0.1169  1.8478 
+    ##      Min       1Q   Median       3Q      Max 
+    ## -1.49133 -0.45380  0.02229  0.58755  1.56487 
     ## 
     ## Coefficients:
     ##             Estimate Std. Error t value Pr(>|t|)
-    ## (Intercept)   0.1914     0.3470   0.552    0.596
-    ## b             0.2022     0.2774   0.729    0.487
+    ## (Intercept)   0.4870     0.3416   1.426    0.192
+    ## b            -0.2924     0.4073  -0.718    0.493
     ## 
-    ## Residual standard error: 1.096 on 8 degrees of freedom
-    ## Multiple R-squared:  0.06226,    Adjusted R-squared:  -0.05496 
-    ## F-statistic: 0.5311 on 1 and 8 DF,  p-value: 0.4869
+    ## Residual standard error: 0.9775 on 8 degrees of freedom
+    ## Multiple R-squared:  0.06051,    Adjusted R-squared:  -0.05693 
+    ## F-statistic: 0.5152 on 1 and 8 DF,  p-value: 0.4933
+
+> Here is now some quote
+
+And this is a list:
+
+  - First point
+  - Second point
+
+And a table:
+
+| First | asdf |
+| ----- | ---- |
+| dd    | ddd  |
+| iek   | dfdf |
 
 You can also embed plots, for example:
 

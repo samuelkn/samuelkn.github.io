@@ -1,12 +1,12 @@
 ---
-title: "Exploring the Cars Dataset - plain"
+title: "Exploring the Cars Dataset - html"
 layout: post
 output:
+  html_document:
+    keep_md: true
   md_document:
     variant: gfm
     preserve_yaml: true
-  html_document:
-    keep_md: true
 ---
 
 
@@ -37,16 +37,14 @@ same with kable
 kable(summary(cars))
 ```
 
-
-
-|   |    speed    |     dist      |
-|:--|:------------|:--------------|
-|   |Min.   : 4.0 |Min.   :  2.00 |
-|   |1st Qu.:12.0 |1st Qu.: 26.00 |
-|   |Median :15.0 |Median : 36.00 |
-|   |Mean   :15.4 |Mean   : 42.98 |
-|   |3rd Qu.:19.0 |3rd Qu.: 56.00 |
-|   |Max.   :25.0 |Max.   :120.00 |
+         speed           dist      
+---  -------------  ---------------
+     Min.   : 4.0   Min.   :  2.00 
+     1st Qu.:12.0   1st Qu.: 26.00 
+     Median :15.0   Median : 36.00 
+     Mean   :15.4   Mean   : 42.98 
+     3rd Qu.:19.0   3rd Qu.: 56.00 
+     Max.   :25.0   Max.   :120.00 
 
 
 
@@ -64,17 +62,17 @@ summary(model)
 ## lm(formula = a ~ b)
 ## 
 ## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -1.6892 -0.8542 -0.2062  0.9264  2.3901 
+##      Min       1Q   Median       3Q      Max 
+## -1.42569 -0.77075 -0.01574  0.59072  1.65345 
 ## 
 ## Coefficients:
 ##             Estimate Std. Error t value Pr(>|t|)
-## (Intercept)   0.5765     0.4896   1.177    0.273
-## b             0.2876     0.5592   0.514    0.621
+## (Intercept) 0.368401   0.343879   1.071    0.315
+## b           0.005283   0.233340   0.023    0.982
 ## 
-## Residual standard error: 1.468 on 8 degrees of freedom
-## Multiple R-squared:  0.032,	Adjusted R-squared:  -0.08899 
-## F-statistic: 0.2645 on 1 and 8 DF,  p-value: 0.6209
+## Residual standard error: 1.08 on 8 degrees of freedom
+## Multiple R-squared:  6.408e-05,	Adjusted R-squared:  -0.1249 
+## F-statistic: 0.0005127 on 1 and 8 DF,  p-value: 0.9825
 ```
 
 
@@ -94,6 +92,6 @@ iek  |  dfdf
 
 You can also embed plots, for example:
 
-![plot of chunk my-first-plot]({{ site.baseurl }}/assets/exploring-the-cars-dataset-my-first-plot-1.png)
+![]({{ site.baseurl }}/assets/exploring-the-cars-dataset-my-first-plot-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
