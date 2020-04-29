@@ -287,6 +287,6 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 // these line to .scss files in _sass folder
 // commented out to force plain rouge
-@import "highlight-default";
-// @import "highlights";
+// @import "highlight-default";
+@import "highlights";
 // @import "svg-icons";
